@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19EBA70326F7EE88001F3BAD /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EBA70226F7EE88001F3BAD /* ExchangeRate.swift */; };
 		19F414A326ED879500F0C23A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F414A226ED879500F0C23A /* AppDelegate.swift */; };
-		19F414A526ED879500F0C23A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F414A426ED879500F0C23A /* SceneDelegate.swift */; };
 		19F414A726ED879500F0C23A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F414A626ED879500F0C23A /* ViewController.swift */; };
 		19F414AA26ED879500F0C23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F414A826ED879500F0C23A /* Main.storyboard */; };
 		19F414AC26ED879D00F0C23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F414AB26ED879D00F0C23A /* Assets.xcassets */; };
@@ -35,9 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19EBA70226F7EE88001F3BAD /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
 		19F4149F26ED879500F0C23A /* currency-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "currency-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F414A226ED879500F0C23A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19F414A426ED879500F0C23A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		19F414A626ED879500F0C23A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		19F414A926ED879500F0C23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19F414AB26ED879D00F0C23A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +76,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19EBA70126F7EDA9001F3BAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19EBA70226F7EE88001F3BAD /* ExchangeRate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19EBA70426F7F198001F3BAD /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		19F4149626ED879500F0C23A = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +114,9 @@
 		19F414A126ED879500F0C23A /* currency-list */ = {
 			isa = PBXGroup;
 			children = (
+				19EBA70426F7F198001F3BAD /* Interactor */,
+				19EBA70126F7EDA9001F3BAD /* Model */,
 				19F414A226ED879500F0C23A /* AppDelegate.swift */,
-				19F414A426ED879500F0C23A /* SceneDelegate.swift */,
 				19F414A626ED879500F0C23A /* ViewController.swift */,
 				19F414A826ED879500F0C23A /* Main.storyboard */,
 				19F414AB26ED879D00F0C23A /* Assets.xcassets */,
@@ -259,8 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				19F414A726ED879500F0C23A /* ViewController.swift in Sources */,
+				19EBA70326F7EE88001F3BAD /* ExchangeRate.swift in Sources */,
 				19F414A326ED879500F0C23A /* AppDelegate.swift in Sources */,
-				19F414A526ED879500F0C23A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
