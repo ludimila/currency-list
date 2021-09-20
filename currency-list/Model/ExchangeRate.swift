@@ -1,6 +1,6 @@
 import Foundation
 
-struct ExchangeRate: Codable {
+struct ExchangeRate: Decodable {
     let success: Bool?
     let timestamp: Date?
     let base: String?
