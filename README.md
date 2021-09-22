@@ -31,4 +31,5 @@ Adicionalmente, como desafio, o que acha de desbravar as possibilidades abaixo? 
 * [100 dias com swift](https://www.hackingwithswift.com/100)
 * [100 dias com SwiftUI](https://www.hackingwithswift.com/100/swiftui)
 * [Refatorando de MVC para MVVM](https://www.raywenderlich.com/6733535-ios-mvvm-tutorial-refactoring-from-mvc)
+* [Testes unitários em swift](https://www.swiftbysundell.com/basics/unit-testing/)
 
